@@ -137,13 +137,17 @@ body>.container {
 .sidebar-container>ul.list-unstyled>li:hover>a {
   color: #405d92;
 }
-}
+
 
 .sidebar-container {
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out;
+}
+
+.sidebar-container.scroll{
+  top: 0px;
 }
 
 .sidebar-heading {

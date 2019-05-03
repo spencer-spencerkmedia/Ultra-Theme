@@ -61,6 +61,7 @@ function ultra_scripts() {
   wp_enqueue_style( 'ultra-style', get_stylesheet_uri(), array());
   wp_enqueue_script( 'bootstrap-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' );
   wp_enqueue_script( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' );
+  wp_enqueue_script( 'ultra-script', get_template_directory_uri() . '/js/scripts.js' );
 }
 add_action( 'wp_enqueue_scripts', 'ultra_scripts' );
 
