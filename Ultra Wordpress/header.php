@@ -47,7 +47,7 @@
         <div class="sidebar-heading"><a class="navbar-brand" href="<?php echo get_site_url(); ?>"><img src="https://oswevdproductlink.com/wp-content/uploads/2018/12/everdrylogo.png" /></a></div>
         <ul class="list-group list-group-flush">
           <li class="active">
-            <a href="">Home</a>
+            <a href="<?php echo get_site_url(); ?>">Home</a>
           </li>
           <li class="">
             <a href="#postSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Shop</a>
