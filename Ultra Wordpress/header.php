@@ -93,19 +93,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="">Registration</a>
+            <a href="#">Delivery</a>
           </li>
           <li>
-            <a href="">Login</a>
+            <a href="https://oswevdproductlink.com/my-account/">My Account</a>
           </li>
           <li>
-            <a href="">Delivery</a>
-          </li>
-          <li>
-            <a href="">My Account</a>
-          </li>
-          <li>
-            <a class="checkout" href=""><i class="fas fa-shopping-cart"></i> Checkout</a>
+            <a class="checkout" href="https://oswevdproductlink.com/checkout"><i class="fas fa-shopping-cart"></i> Checkout</a>
           </li>
         </ul>
         <div class="container blue-footer">
